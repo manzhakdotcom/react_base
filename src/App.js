@@ -50,7 +50,7 @@ function App() {
   const changePage = page => {
     setPage(page);
   };
-  
+
   return (
     <div className='App'>
       <MyButton style={{ marginTop: 30 }} onClick={() => setModal(true)}>

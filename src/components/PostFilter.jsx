@@ -12,7 +12,7 @@ const PostFilter = ({ filter, handlerFilter }) => {
       />
       <MySelect
         value={filter.sort}
-        handlerOnChange={selectedSort =>
+        onChange={selectedSort =>
           handlerFilter({ ...filter, sort: selectedSort })
         }
         defaultValue='Сортировка по'

@@ -4,14 +4,14 @@
   box-sizing: border-box;
 }
 
+select {
+  display: inline;
+}
+
 #root {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-body {
-  background-color: dimgray;
 }
 
 .App {
