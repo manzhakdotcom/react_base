@@ -11,6 +11,7 @@ export default class PostService {
         },
       }
     );
+    console.log(response.data);
     return response;
   }
 
